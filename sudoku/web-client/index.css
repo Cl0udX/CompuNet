@@ -1,0 +1,120 @@
+.gameContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+.subRow {
+    display: flex;
+}
+
+.subCell {
+    display: flex;
+}
+
+.box {
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff4ae;
+    display: flex;
+}
+
+.sudokuInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    pointer-events: none;
+    border: none;
+    background: transparent;
+    outline: none;
+    color: transparent;
+    caret-color: transparent;
+}
+
+.sudokuSpan {
+    position: relative;
+    z-index: 1;
+    font-size: 1.5rem;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: gray;
+}
+
+
+
+@keyframes winEffect {
+    0% {
+        background-color: #fff4ae;
+        transform: scale(1);
+    }
+    20% {
+        background-color: #4caf50;
+        transform: scale(1.25);
+    }
+    35% {
+        background-color: #4caf50;
+        transform: scale(0.95);
+    }
+    50% {
+        background-color: #4caf50;
+        transform: scale(1.15);
+    }
+    65% {
+        background-color: #4caf50;
+        transform: scale(0.98);
+    }
+    80% {
+        background-color: #4caf50;
+        transform: scale(1.05);
+    }
+    90% {
+        background-color: #fff4ae;
+        transform: scale(1.01);
+    }
+    100% {
+        background-color: #fff4ae;
+        transform: scale(1);
+    }
+}
+
+.win-cell {
+    animation: winEffect .8s ease;
+}
+
+
+
+
+
+.gameFooter {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.gameFooter img {
+    width: 100px;
+    height: auto;
+}

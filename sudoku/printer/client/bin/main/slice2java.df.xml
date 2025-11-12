@@ -1,0 +1,18 @@
+<state>
+  <timestamp value='1756142957114' />
+  <sourceSet name='default'>
+    <source name='/Users/santo/Documents/Monitoria/ICE/printer/Printer.ice'>
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/Printer.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/Observer.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/Subject.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/PrinterPrx.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/_PrinterPrxI.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/ObserverPrx.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/_ObserverPrxI.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/SubjectPrx.java' />
+      <file name='/Users/santo/Documents/Monitoria/ICE/printer/client/build/generated-src/Demo/_SubjectPrxI.java' />
+    </source>
+    <arg value='/opt/homebrew/bin/slice2java' />
+    <arg value='-I/opt/homebrew/share/ice/slice' />
+  </sourceSet>
+</state>
